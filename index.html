@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="icon" href="./Images/icon.jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div id="section1_index" class="">
+        <header class="flexm" id="haader_index">
+            <nav class="items-center flex justify-between" id="">
+                <div class="flex items-center  ">
+                    <i class="ri-computer-line text-white text-3xl"></i>
+                    <a href="#" class="ml-3 text-l text-white">Home</a>
+                </div>
+                <div class="md:flex hidden space-x-12">
+                    <a href="#" class="text-white hover:text-yellow-500 transition">Home </a>
+                    <a href="#" class="text-white hover:text-yellow-500 transition">Who We Are </a>
+                    <a href="#" class="text-white hover:text-yellow-500 transition">Add Task </a>
+                    <a href="#" class="text-white hover:text-yellow-500 transition">My Tasks </a>
+                </div>
+                <div class="md:flex hidden">
+                    <a href="#" class="px-2 py-2 bg-[#7F6A90] rounded text-white hover:bg-[#523e62] transition">Contact Us</a>
+                </div>
+                 <div class="md:hidden flex">
+                <button id="mobile-btn" class="text-white">
+                    <i class="ri-menu-line text-2xl"></i>
+                </button>
+            </div>
+            </nav>
+             <div class="md:hidden">
+            <div id="mobile-menu" class="absolute flex flex-col border border-gray-300 bg-[#E3DEF4] right-6 rounded left-6 py-5 mt-3 items-center hidden">
+                <a href="#" class="text-white hover:text-yellow-500 transition">Home </a>
+                    <a href="#" class="text-white hover:text-yellow-500 transition">Who We Are </a>
+                    <a href="#" class="text-white hover:text-yellow-500 transition">Add Task </a>
+                    <a href="#" class="text-white hover:text-yellow-500 transition">My Tasks </a>
+                    <a href="#" class="px-2 py-2 bg-[#7F6A90] rounded text-white hover:bg-[#523e62] transition">Contact Us</a>
+            </div>
+            </div>
+        </header>
+        <div class="" id="container_section1_index">
+            <div class="">
+                <h2 class="text-white text-2xl tracking-widest font-mono">Task Input Section</h2>
+            </div>
+            <div class="shadow-lg shadow-grey-900 md:my-20 mx-auto my-10 w-72 h-64 rounded" id="form-section1_index">
+                <div class="p-7">
+                    <h3 class="font-bold text-[#251F28] text-2xl">Add a new task</h3>
+                </div>
+                <div class="p-5 ">
+                    <input type="text" name="" id="" class="px-4 py-1 rounded border border-[#E3DEF4] shadow-sm shadow-gray-500" placeholder="Type here ..">
+                </div>
+                <div class="mt-7">
+                    <button class="px-8 py-1 bg-[#251F28] text-white rounded shadow-sm shadow-gray-700 hover:bg-[#050405]">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="" id="section2_index">
+        <div class="p-6" id="">
+            <div class="" id="">
+                <h2 class="text-[#E3DEF4] text-xl ">Tasks List</h2>
+            </div>
+            <div class="" id="">
+                <div class="" id="">
+                    <table class="mx-auto mt-10" id="table-section2_index">
+                      <thead>
+                        <tr>
+                            <th>The Task</th>
+                            <th>The Situation</th>
+                        </tr>
+                       </thead>
+                       <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                       </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="" id="section3_index">
+        <div class="p-7 text-center font-bold text-xl">
+            <h2 class="text-white">Communication Model</h2>
+            <div class="mx-auto p-10">
+                <div class="bg-[#372F45] border border-[#7863C6]">
+                    <div class="p-5">
+                        <h2 class="text-[#A18DEA]">Contact Us</h2>
+                    </div>
+                    <div class="p-2">
+                        <form action="">
+                            <input type="text" name="name" id="Name" class="input_section3_index" placeholder="Name" style="color:white ;width: 90%; background-color: #1E1722; border: 1px solid #7863C6; border-radius: 5px; padding: 5px;">
+                            <br><br>
+                            <input type="email" name="email" id="Email" class="input_section3_index" placeholder="E-mail" style="width: 90%; background-color: #1E1722; border: 1px solid #7863C6; border-radius: 5px; padding: 5px;">
+                            <br><br>
+                            <textarea name="message" id="Message" placeholder="Type here your message .." class="input_section3_index" style="width: 90%; background-color: #1E1722; border: 1px solid #7863C6; border-radius: 5px; padding: 5px;"></textarea>
+                            <br><br>
+                            <button class="px-12 py-2 rounded text-white bg-[#7863C6] hover:bg-[#54448f] transition" id="btn_form-section1_index">Send</button>
+                            <br><br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="w-full p-8 bg-black" id="footer-index">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <i class="ri-computer-line text-white text-4xl"></i>
+                    <a href="#" class="text-white ml-3 text-xl">Home</a>
+                </div>
+                <div class="text-white">
+                    <p>© 2025 All rights reserved</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
