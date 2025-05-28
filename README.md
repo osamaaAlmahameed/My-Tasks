@@ -2,7 +2,7 @@
 
 ## 🚀 Live Demo
 
-Check out the deployed app here: [Live App]([https://myapp.vercel.app](https://my-tasks-lt.vercel.app/)
+Check out the deployed app here: [Live App]([https://myapp.vercel.app](https://my-tasks-lt.vercel.app)
 
 ## InterFace
 
